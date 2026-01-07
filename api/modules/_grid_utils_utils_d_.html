@@ -2376,7 +2376,7 @@ img {
 			<a href="_grid_utils_utils_d_.html#addlastrowborder" class="tsd-kind-icon">add<wbr>Last<wbr>Row<wbr>Border</a>
 		</li>
 		<li class=" tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private">
-			<a href="_grid_utils_utils_d_.html#buildremotedeletepayload" class="tsd-kind-icon">build<wbr>Remote<wbr>Delete<wbr>Payload</a>
+			<a href="_grid_utils_utils_d_.html#buildremotepayload" class="tsd-kind-icon">build<wbr>Remotepayload</a>
 		</li>
 		<li class=" tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private">
 			<a href="_grid_utils_utils_d_.html#compareselectedproperties" class="tsd-kind-icon">compare<wbr>Selected<wbr>Properties</a>
@@ -2437,7 +2437,7 @@ img {
 						<h3>Functions</h3>
 						<ul class="tsd-index-list">
 							<li class="tsd-kind-function tsd-parent-kind-external-module tsd-is-private"><a href="_grid_utils_utils_d_.html#addlastrowborder" class="tsd-kind-icon">add<wbr>Last<wbr>Row<wbr>Border</a></li>
-							<li class="tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private"><a href="_grid_utils_utils_d_.html#buildremotedeletepayload" class="tsd-kind-icon">build<wbr>Remote<wbr>Delete<wbr>Payload</a></li>
+							<li class="tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private"><a href="_grid_utils_utils_d_.html#buildremotepayload" class="tsd-kind-icon">build<wbr>Remotepayload</a></li>
 							<li class="tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private"><a href="_grid_utils_utils_d_.html#compareselectedproperties" class="tsd-kind-icon">compare<wbr>Selected<wbr>Properties</a></li>
 							<li class="tsd-kind-function tsd-parent-kind-external-module tsd-is-private"><a href="_grid_utils_utils_d_.html#comparevalues" class="tsd-kind-icon">compare<wbr>Values</a></li>
 							<li class="tsd-kind-function tsd-parent-kind-external-module tsd-is-private"><a href="_grid_utils_utils_d_.html#getactualpropfromcoll" class="tsd-kind-icon">get<wbr>Actual<wbr>Prop<wbr>From<wbr>Coll</a></li>
@@ -2623,10 +2623,10 @@ img {
 				</ul>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private">
-				<a name="buildremotedeletepayload" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagPrivate">Private</span> build<wbr>Remote<wbr>Delete<wbr>Payload</h3>
+				<a name="buildremotepayload" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagPrivate">Private</span> build<wbr>Remotepayload</h3>
 				<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module tsd-has-type-parameter tsd-is-private">
-					<li class="tsd-signature tsd-kind-icon">build<wbr>Remote<wbr>Delete<wbr>Payload&lt;T&gt;<span class="tsd-signature-symbol">(</span>gridRef<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_grid_interfaces_d_.gridref.html" class="tsd-signature-type">GridRef</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_edit_interfaces_d_.deletepayloadargs.html" class="tsd-signature-type">deletePayloadArgs</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+					<li class="tsd-signature tsd-kind-icon">build<wbr>Remotepayload&lt;T&gt;<span class="tsd-signature-symbol">(</span>gridRef<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_grid_interfaces_d_.gridref.html" class="tsd-signature-type">GridRef</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_edit_interfaces_d_.payloadargs.html" class="tsd-signature-type">payloadArgs</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
 				</ul>
 				<ul class="tsd-descriptions">
 					<li class="tsd-description">
@@ -2646,11 +2646,11 @@ img {
 								<dd><p>T</p>
 								</dd>
 								<dt>example</dt>
-								<dd><pre><code class="language-typescript"><span class="hljs-keyword">const</span> payload = buildRemoteDeletePayload(gridRef);
+								<dd><pre><code class="language-typescript"><span class="hljs-keyword">const</span> payload = buildRemotepayload(gridRef);
 <span class="hljs-keyword">if</span> (payload) {
   <span class="hljs-keyword">await</span> dataOperations.getData({
     data: recordsToDelete,
-    deletePayload: payload
+    payload: payload
   });
 }</code></pre>
 								</dd>
@@ -2671,7 +2671,7 @@ img {
 								</div>
 							</li>
 						</ul>
-						<h4 class="tsd-returns-title">Returns <a href="../interfaces/_grid_types_edit_interfaces_d_.deletepayloadargs.html" class="tsd-signature-type">deletePayloadArgs</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h4>
+						<h4 class="tsd-returns-title">Returns <a href="../interfaces/_grid_types_edit_interfaces_d_.payloadargs.html" class="tsd-signature-type">payloadArgs</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h4>
 						<p>Remote delete payload structure or null if conditions not met</p>
 						<p>Remarks:
 						The payload contains two key pieces of information:</p>
