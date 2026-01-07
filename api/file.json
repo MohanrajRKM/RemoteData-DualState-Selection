@@ -1609,7 +1609,7 @@
 			]
 		},
 		{
-			"id": 67,
+			"id": 86,
 			"name": "\"grid/hooks/index.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -1626,7 +1626,7 @@
 			]
 		},
 		{
-			"id": 68,
+			"id": 87,
 			"name": "\"grid/hooks/useColumn.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -1636,7 +1636,7 @@
 			"originalName": "D:/Today/Selection/react-grid-components/src/grid/hooks/useColumn.d.ts",
 			"children": [
 				{
-					"id": 69,
+					"id": 88,
 					"name": "defaultColumnProps",
 					"kind": 32,
 					"kindString": "Variable",
@@ -1669,7 +1669,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 70,
+							"id": 89,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -1678,7 +1678,7 @@
 							},
 							"signatures": [
 								{
-									"id": 71,
+									"id": 90,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1687,7 +1687,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 72,
+											"id": 91,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -1698,7 +1698,7 @@
 									],
 									"parameters": [
 										{
-											"id": 73,
+											"id": 92,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1754,7 +1754,7 @@
 					}
 				},
 				{
-					"id": 74,
+					"id": 93,
 					"name": "useColumn",
 					"kind": 32,
 					"kindString": "Variable",
@@ -1787,7 +1787,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 75,
+							"id": 94,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -1796,7 +1796,7 @@
 							},
 							"signatures": [
 								{
-									"id": 76,
+									"id": 95,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -1805,7 +1805,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 77,
+											"id": 96,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -1816,7 +1816,7 @@
 									],
 									"parameters": [
 										{
-											"id": 78,
+											"id": 97,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -1845,7 +1845,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 79,
+											"id": 98,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -1854,7 +1854,7 @@
 											},
 											"children": [
 												{
-													"id": 81,
+													"id": 100,
 													"name": "privateAPI",
 													"kind": 32,
 													"kindString": "Variable",
@@ -1871,7 +1871,7 @@
 													"type": {
 														"type": "reflection",
 														"declaration": {
-															"id": 82,
+															"id": 101,
 															"name": "__type",
 															"kind": 65536,
 															"kindString": "Type literal",
@@ -1880,7 +1880,7 @@
 															},
 															"children": [
 																{
-																	"id": 85,
+																	"id": 104,
 																	"name": "alignClass",
 																	"kind": 32,
 																	"kindString": "Variable",
@@ -1900,7 +1900,7 @@
 																	}
 																},
 																{
-																	"id": 86,
+																	"id": 105,
 																	"name": "alignHeaderClass",
 																	"kind": 32,
 																	"kindString": "Variable",
@@ -1920,7 +1920,7 @@
 																	}
 																},
 																{
-																	"id": 83,
+																	"id": 102,
 																	"name": "cellType",
 																	"kind": 32,
 																	"kindString": "Variable",
@@ -1941,7 +1941,7 @@
 																	}
 																},
 																{
-																	"id": 88,
+																	"id": 107,
 																	"name": "formattedValue",
 																	"kind": 32,
 																	"kindString": "Variable",
@@ -1974,7 +1974,7 @@
 																	}
 																},
 																{
-																	"id": 84,
+																	"id": 103,
 																	"name": "row",
 																	"kind": 32,
 																	"kindString": "Variable",
@@ -2008,7 +2008,7 @@
 																	}
 																},
 																{
-																	"id": 87,
+																	"id": 106,
 																	"name": "visibleClass",
 																	"kind": 32,
 																	"kindString": "Variable",
@@ -2033,12 +2033,12 @@
 																	"title": "Variables",
 																	"kind": 32,
 																	"children": [
-																		85,
-																		86,
-																		83,
-																		88,
-																		84,
-																		87
+																		104,
+																		105,
+																		102,
+																		107,
+																		103,
+																		106
 																	]
 																}
 															],
@@ -2053,7 +2053,7 @@
 													}
 												},
 												{
-													"id": 80,
+													"id": 99,
 													"name": "publicAPI",
 													"kind": 32,
 													"kindString": "Variable",
@@ -2091,8 +2091,8 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														81,
-														80
+														100,
+														99
 													]
 												}
 											],
@@ -2123,8 +2123,8 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						69,
-						74
+						88,
+						93
 					]
 				}
 			],
@@ -2137,7 +2137,7 @@
 			]
 		},
 		{
-			"id": 89,
+			"id": 108,
 			"name": "\"grid/hooks/useCommandColumn.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -2147,7 +2147,7 @@
 			"originalName": "D:/Today/Selection/react-grid-components/src/grid/hooks/useCommandColumn.d.ts",
 			"children": [
 				{
-					"id": 90,
+					"id": 109,
 					"name": "useCommandColumn",
 					"kind": 32,
 					"kindString": "Variable",
@@ -2179,7 +2179,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 91,
+							"id": 110,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -2188,7 +2188,7 @@
 							},
 							"signatures": [
 								{
-									"id": 92,
+									"id": 111,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2218,7 +2218,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						90
+						109
 					]
 				}
 			],
@@ -2231,7 +2231,7 @@
 			]
 		},
 		{
-			"id": 93,
+			"id": 112,
 			"name": "\"grid/hooks/useEdit.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -2241,7 +2241,7 @@
 			"originalName": "D:/Today/Selection/react-grid-components/src/grid/hooks/useEdit.d.ts",
 			"children": [
 				{
-					"id": 94,
+					"id": 113,
 					"name": "useEdit",
 					"kind": 32,
 					"kindString": "Variable",
@@ -2329,7 +2329,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 95,
+							"id": 114,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -2338,7 +2338,7 @@
 							},
 							"signatures": [
 								{
-									"id": 96,
+									"id": 115,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2347,7 +2347,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 97,
+											"id": 116,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -2358,7 +2358,7 @@
 									],
 									"parameters": [
 										{
-											"id": 98,
+											"id": 117,
 											"name": "_gridRef",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2384,7 +2384,7 @@
 											}
 										},
 										{
-											"id": 99,
+											"id": 118,
 											"name": "serviceLocator",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2398,7 +2398,7 @@
 											}
 										},
 										{
-											"id": 100,
+											"id": 119,
 											"name": "columns",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2421,7 +2421,7 @@
 											}
 										},
 										{
-											"id": 101,
+											"id": 120,
 											"name": "currentViewData",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2437,7 +2437,7 @@
 											}
 										},
 										{
-											"id": 102,
+											"id": 121,
 											"name": "dataOperations",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2457,7 +2457,7 @@
 											}
 										},
 										{
-											"id": 103,
+											"id": 122,
 											"name": "focusModule",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2471,7 +2471,7 @@
 											}
 										},
 										{
-											"id": 104,
+											"id": 123,
 											"name": "selectionModule",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2480,7 +2480,7 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 104,
+												"id": 123,
 												"typeArguments": [
 													{
 														"type": "typeParameter",
@@ -2491,7 +2491,7 @@
 											}
 										},
 										{
-											"id": 105,
+											"id": 124,
 											"name": "editSettings",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2511,7 +2511,7 @@
 											}
 										},
 										{
-											"id": 106,
+											"id": 125,
 											"name": "setGridAction",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2536,7 +2536,7 @@
 											}
 										},
 										{
-											"id": 107,
+											"id": 126,
 											"name": "setCurrentPage",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2561,7 +2561,7 @@
 											}
 										},
 										{
-											"id": 108,
+											"id": 127,
 											"name": "setResponseData",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2586,7 +2586,7 @@
 											}
 										},
 										{
-											"id": 109,
+											"id": 128,
 											"name": "commandColumnModule",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2629,7 +2629,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						94
+						113
 					]
 				}
 			],
@@ -2642,7 +2642,7 @@
 			]
 		},
 		{
-			"id": 110,
+			"id": 129,
 			"name": "\"grid/hooks/useEditDialog.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -2652,7 +2652,7 @@
 			"originalName": "D:/Today/Selection/react-grid-components/src/grid/hooks/useEditDialog.d.ts",
 			"children": [
 				{
-					"id": 111,
+					"id": 130,
 					"name": "useConfirmDialog",
 					"kind": 32,
 					"kindString": "Variable",
@@ -2686,7 +2686,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 112,
+							"id": 131,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -2695,7 +2695,7 @@
 							},
 							"signatures": [
 								{
-									"id": 113,
+									"id": 132,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2704,7 +2704,7 @@
 									},
 									"parameters": [
 										{
-											"id": 114,
+											"id": 133,
 											"name": "serviceLocator",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2741,7 +2741,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						111
+						130
 					]
 				}
 			],
@@ -2754,7 +2754,7 @@
 			]
 		},
 		{
-			"id": 115,
+			"id": 134,
 			"name": "\"grid/hooks/useFilter.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -2764,7 +2764,7 @@
 			"originalName": "D:/Today/Selection/react-grid-components/src/grid/hooks/useFilter.d.ts",
 			"children": [
 				{
-					"id": 116,
+					"id": 135,
 					"name": "useFilter",
 					"kind": 32,
 					"kindString": "Variable",
@@ -2812,7 +2812,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 117,
+							"id": 136,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -2821,7 +2821,7 @@
 							},
 							"signatures": [
 								{
-									"id": 118,
+									"id": 137,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -2830,7 +2830,7 @@
 									},
 									"parameters": [
 										{
-											"id": 119,
+											"id": 138,
 											"name": "gridRef",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2851,7 +2851,7 @@
 											}
 										},
 										{
-											"id": 120,
+											"id": 139,
 											"name": "filterSetting",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2866,7 +2866,7 @@
 											}
 										},
 										{
-											"id": 121,
+											"id": 140,
 											"name": "setGridAction",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2877,7 +2877,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 122,
+													"id": 141,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -2886,7 +2886,7 @@
 													},
 													"signatures": [
 														{
-															"id": 123,
+															"id": 142,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -2895,7 +2895,7 @@
 															},
 															"parameters": [
 																{
-																	"id": 124,
+																	"id": 143,
 																	"name": "action",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -2925,7 +2925,7 @@
 											}
 										},
 										{
-											"id": 125,
+											"id": 144,
 											"name": "serviceLocator",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -2963,7 +2963,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						116
+						135
 					]
 				}
 			],
@@ -2976,7 +2976,7 @@
 			]
 		},
 		{
-			"id": 126,
+			"id": 145,
 			"name": "\"grid/hooks/useFocusStrategy.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -2986,7 +2986,7 @@
 			"originalName": "D:/Today/Selection/react-grid-components/src/grid/hooks/useFocusStrategy.d.ts",
 			"children": [
 				{
-					"id": 127,
+					"id": 146,
 					"name": "createMatrix",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3014,7 +3014,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 128,
+							"id": 147,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -3023,7 +3023,7 @@
 							},
 							"signatures": [
 								{
-									"id": 129,
+									"id": 148,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3048,7 +3048,7 @@
 					}
 				},
 				{
-					"id": 130,
+					"id": 149,
 					"name": "useFocusStrategy",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3111,7 +3111,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 131,
+							"id": 150,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -3120,7 +3120,7 @@
 							},
 							"signatures": [
 								{
-									"id": 132,
+									"id": 151,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3129,7 +3129,7 @@
 									},
 									"parameters": [
 										{
-											"id": 133,
+											"id": 152,
 											"name": "headerRowCount",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3142,7 +3142,7 @@
 											}
 										},
 										{
-											"id": 134,
+											"id": 153,
 											"name": "contentRowCount",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3155,7 +3155,7 @@
 											}
 										},
 										{
-											"id": 135,
+											"id": 154,
 											"name": "aggregateRowCount",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3168,7 +3168,7 @@
 											}
 										},
 										{
-											"id": 136,
+											"id": 155,
 											"name": "columns",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3185,7 +3185,7 @@
 											}
 										},
 										{
-											"id": 137,
+											"id": 156,
 											"name": "gridRef",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3205,7 +3205,7 @@
 											}
 										},
 										{
-											"id": 138,
+											"id": 157,
 											"name": "callbacks",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3220,7 +3220,7 @@
 											}
 										},
 										{
-											"id": 139,
+											"id": 158,
 											"name": "commandColumnModule",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3258,8 +3258,8 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						127,
-						130
+						146,
+						149
 					]
 				}
 			],
@@ -3272,7 +3272,7 @@
 			]
 		},
 		{
-			"id": 140,
+			"id": 159,
 			"name": "\"grid/hooks/useFormValidationRules.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -3282,7 +3282,7 @@
 			"originalName": "D:/Today/Selection/react-grid-components/src/grid/hooks/useFormValidationRules.d.ts",
 			"children": [
 				{
-					"id": 141,
+					"id": 160,
 					"name": "useFormValidationRules",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3315,7 +3315,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 142,
+							"id": 161,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -3324,7 +3324,7 @@
 							},
 							"signatures": [
 								{
-									"id": 143,
+									"id": 162,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3333,7 +3333,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 144,
+											"id": 163,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -3344,7 +3344,7 @@
 									],
 									"parameters": [
 										{
-											"id": 145,
+											"id": 164,
 											"name": "columns",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3389,7 +3389,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						141
+						160
 					]
 				}
 			],
@@ -3402,7 +3402,7 @@
 			]
 		},
 		{
-			"id": 146,
+			"id": 165,
 			"name": "\"grid/hooks/useGrid.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -3412,7 +3412,7 @@
 			"originalName": "D:/Today/Selection/react-grid-components/src/grid/hooks/useGrid.d.ts",
 			"children": [
 				{
-					"id": 147,
+					"id": 166,
 					"name": "useGridComputedProps",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3455,7 +3455,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 148,
+							"id": 167,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -3464,7 +3464,7 @@
 							},
 							"signatures": [
 								{
-									"id": 149,
+									"id": 168,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3473,7 +3473,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 150,
+											"id": 169,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -3484,7 +3484,7 @@
 									],
 									"parameters": [
 										{
-											"id": 151,
+											"id": 170,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3510,7 +3510,7 @@
 											}
 										},
 										{
-											"id": 152,
+											"id": 171,
 											"name": "gridRef",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3537,7 +3537,7 @@
 											}
 										},
 										{
-											"id": 153,
+											"id": 172,
 											"name": "ellipsisTooltipRef",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3586,7 +3586,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						147
+						166
 					]
 				}
 			],
@@ -3599,7 +3599,7 @@
 			]
 		},
 		{
-			"id": 154,
+			"id": 173,
 			"name": "\"grid/hooks/useRender.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -3609,7 +3609,7 @@
 			"originalName": "D:/Today/Selection/react-grid-components/src/grid/hooks/useRender.d.ts",
 			"children": [
 				{
-					"id": 170,
+					"id": 189,
 					"name": "useAggregates",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3627,7 +3627,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 171,
+							"id": 190,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -3636,7 +3636,7 @@
 							},
 							"signatures": [
 								{
-									"id": 172,
+									"id": 191,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3645,7 +3645,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 173,
+											"id": 192,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -3656,7 +3656,7 @@
 									],
 									"parameters": [
 										{
-											"id": 174,
+											"id": 193,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3682,7 +3682,7 @@
 											}
 										},
 										{
-											"id": 175,
+											"id": 194,
 											"name": "gridRef",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3729,7 +3729,7 @@
 					}
 				},
 				{
-					"id": 159,
+					"id": 178,
 					"name": "useColumns",
 					"kind": 32,
 					"kindString": "Variable",
@@ -3776,7 +3776,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 160,
+							"id": 179,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -3785,7 +3785,7 @@
 							},
 							"signatures": [
 								{
-									"id": 161,
+									"id": 180,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -3794,7 +3794,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 162,
+											"id": 181,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -3805,7 +3805,7 @@
 									],
 									"parameters": [
 										{
-											"id": 163,
+											"id": 182,
 											"name": "props",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3831,7 +3831,7 @@
 											}
 										},
 										{
-											"id": 164,
+											"id": 183,
 											"name": "gridRef",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3857,7 +3857,7 @@
 											}
 										},
 										{
-											"id": 165,
+											"id": 184,
 											"name": "dataState",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3878,7 +3878,7 @@
 											}
 										},
 										{
-											"id": 166,
+											"id": 185,
 											"name": "isInitialBeforePaint",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -3921,7 +3921,7 @@
 											{
 												"type": "reflection",
 												"declaration": {
-													"id": 167,
+													"id": 186,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -3930,7 +3930,7 @@
 													},
 													"children": [
 														{
-															"id": 169,
+															"id": 188,
 															"name": "isCheckBoxColumn",
 															"kind": 32,
 															"kindString": "Variable",
@@ -3950,7 +3950,7 @@
 															}
 														},
 														{
-															"id": 168,
+															"id": 187,
 															"name": "uiColumns",
 															"kind": 32,
 															"kindString": "Variable",
@@ -3985,8 +3985,8 @@
 															"title": "Variables",
 															"kind": 32,
 															"children": [
-																169,
-																168
+																188,
+																187
 															]
 														}
 													],
@@ -4014,7 +4014,7 @@
 					}
 				},
 				{
-					"id": 155,
+					"id": 174,
 					"name": "useRender",
 					"kind": 32,
 					"kindString": "Variable",
@@ -4042,7 +4042,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 156,
+							"id": 175,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -4051,7 +4051,7 @@
 							},
 							"signatures": [
 								{
-									"id": 157,
+									"id": 176,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4060,7 +4060,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 158,
+											"id": 177,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -4098,9 +4098,9 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						170,
-						159,
-						155
+						189,
+						178,
+						174
 					]
 				}
 			],
@@ -4113,7 +4113,7 @@
 			]
 		},
 		{
-			"id": 176,
+			"id": 195,
 			"name": "\"grid/hooks/useScroll.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -4123,7 +4123,7 @@
 			"originalName": "D:/Today/Selection/react-grid-components/src/grid/hooks/useScroll.d.ts",
 			"children": [
 				{
-					"id": 177,
+					"id": 196,
 					"name": "useScroll",
 					"kind": 32,
 					"kindString": "Variable",
@@ -4151,7 +4151,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 178,
+							"id": 197,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -4160,7 +4160,7 @@
 							},
 							"signatures": [
 								{
-									"id": 179,
+									"id": 198,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4169,7 +4169,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 180,
+											"id": 199,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -4207,7 +4207,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						177
+						196
 					]
 				}
 			],
@@ -4220,7 +4220,7 @@
 			]
 		},
 		{
-			"id": 181,
+			"id": 200,
 			"name": "\"grid/hooks/useSearch.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -4230,7 +4230,7 @@
 			"originalName": "D:/Today/Selection/react-grid-components/src/grid/hooks/useSearch.d.ts",
 			"children": [
 				{
-					"id": 182,
+					"id": 201,
 					"name": "useSearch",
 					"kind": 32,
 					"kindString": "Variable",
@@ -4273,7 +4273,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 183,
+							"id": 202,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -4282,7 +4282,7 @@
 							},
 							"signatures": [
 								{
-									"id": 184,
+									"id": 203,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4291,7 +4291,7 @@
 									},
 									"parameters": [
 										{
-											"id": 185,
+											"id": 204,
 											"name": "gridRef",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4312,7 +4312,7 @@
 											}
 										},
 										{
-											"id": 186,
+											"id": 205,
 											"name": "searchSetting",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4327,7 +4327,7 @@
 											}
 										},
 										{
-											"id": 187,
+											"id": 206,
 											"name": "setGridAction",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4338,7 +4338,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 188,
+													"id": 207,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -4347,7 +4347,7 @@
 													},
 													"signatures": [
 														{
-															"id": 189,
+															"id": 208,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -4356,7 +4356,7 @@
 															},
 															"parameters": [
 																{
-																	"id": 190,
+																	"id": 209,
 																	"name": "action",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -4409,7 +4409,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						182
+						201
 					]
 				}
 			],
@@ -4422,7 +4422,7 @@
 			]
 		},
 		{
-			"id": 191,
+			"id": 210,
 			"name": "\"grid/hooks/useSelection.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -4432,7 +4432,7 @@
 			"originalName": "D:/Today/Selection/react-grid-components/src/grid/hooks/useSelection.d.ts",
 			"children": [
 				{
-					"id": 192,
+					"id": 211,
 					"name": "useSelection",
 					"kind": 32,
 					"kindString": "Variable",
@@ -4489,7 +4489,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 193,
+							"id": 212,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -4498,7 +4498,7 @@
 							},
 							"signatures": [
 								{
-									"id": 194,
+									"id": 213,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4507,7 +4507,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 195,
+											"id": 214,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -4518,7 +4518,7 @@
 									],
 									"parameters": [
 										{
-											"id": 196,
+											"id": 215,
 											"name": "gridRef",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4545,7 +4545,7 @@
 											}
 										},
 										{
-											"id": 197,
+											"id": 216,
 											"name": "currentViewData",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4562,7 +4562,7 @@
 											}
 										},
 										{
-											"id": 198,
+											"id": 217,
 											"name": "totalRecordsCount",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4576,7 +4576,7 @@
 											}
 										},
 										{
-											"id": 199,
+											"id": 218,
 											"name": "isCheckBoxColumn",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4590,7 +4590,7 @@
 											}
 										},
 										{
-											"id": 200,
+											"id": 219,
 											"name": "dataModule",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4640,7 +4640,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						192
+						211
 					]
 				}
 			],
@@ -4653,7 +4653,7 @@
 			]
 		},
 		{
-			"id": 201,
+			"id": 220,
 			"name": "\"grid/hooks/useSort.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -4663,7 +4663,7 @@
 			"originalName": "D:/Today/Selection/react-grid-components/src/grid/hooks/useSort.d.ts",
 			"children": [
 				{
-					"id": 202,
+					"id": 221,
 					"name": "useSort",
 					"kind": 32,
 					"kindString": "Variable",
@@ -4706,7 +4706,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 203,
+							"id": 222,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -4715,7 +4715,7 @@
 							},
 							"signatures": [
 								{
-									"id": 204,
+									"id": 223,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4724,7 +4724,7 @@
 									},
 									"parameters": [
 										{
-											"id": 205,
+											"id": 224,
 											"name": "gridRef",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4745,7 +4745,7 @@
 											}
 										},
 										{
-											"id": 206,
+											"id": 225,
 											"name": "sortSetting",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4760,7 +4760,7 @@
 											}
 										},
 										{
-											"id": 207,
+											"id": 226,
 											"name": "setGridAction",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4771,7 +4771,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 208,
+													"id": 227,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -4780,7 +4780,7 @@
 													},
 													"signatures": [
 														{
-															"id": 209,
+															"id": 228,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -4789,7 +4789,7 @@
 															},
 															"parameters": [
 																{
-																	"id": 210,
+																	"id": 229,
 																	"name": "action",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -4842,7 +4842,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						202
+						221
 					]
 				}
 			],
@@ -4855,7 +4855,7 @@
 			]
 		},
 		{
-			"id": 211,
+			"id": 230,
 			"name": "\"grid/hooks/useToolbar.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -4865,7 +4865,7 @@
 			"originalName": "D:/Today/Selection/react-grid-components/src/grid/hooks/useToolbar.d.ts",
 			"children": [
 				{
-					"id": 212,
+					"id": 231,
 					"name": "useToolbar",
 					"kind": 32,
 					"kindString": "Variable",
@@ -4933,7 +4933,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 213,
+							"id": 232,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -4942,7 +4942,7 @@
 							},
 							"signatures": [
 								{
-									"id": 214,
+									"id": 233,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -4951,7 +4951,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 215,
+											"id": 234,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -4962,7 +4962,7 @@
 									],
 									"parameters": [
 										{
-											"id": 216,
+											"id": 235,
 											"name": "config",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4976,7 +4976,7 @@
 											}
 										},
 										{
-											"id": 217,
+											"id": 236,
 											"name": "editModule",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -4986,12 +4986,12 @@
 											},
 											"type": {
 												"type": "reference",
-												"id": 217,
+												"id": 236,
 												"name": "editModule"
 											}
 										},
 										{
-											"id": 218,
+											"id": 237,
 											"name": "selectionModule",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5012,7 +5012,7 @@
 											}
 										},
 										{
-											"id": 219,
+											"id": 238,
 											"name": "currentViewData",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5029,7 +5029,7 @@
 											}
 										},
 										{
-											"id": 220,
+											"id": 239,
 											"name": "allowSearching",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5043,7 +5043,7 @@
 											}
 										},
 										{
-											"id": 221,
+											"id": 240,
 											"name": "commandColumnModule",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5058,7 +5058,7 @@
 											}
 										},
 										{
-											"id": 222,
+											"id": 241,
 											"name": "selectionSettings",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5073,7 +5073,7 @@
 											}
 										},
 										{
-											"id": 223,
+											"id": 242,
 											"name": "totalRecordsCount",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5110,7 +5110,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						212
+						231
 					]
 				}
 			],
@@ -5140,7 +5140,7 @@
 			]
 		},
 		{
-			"id": 224,
+			"id": 67,
 			"name": "\"grid/models/index.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -5157,7 +5157,7 @@
 			]
 		},
 		{
-			"id": 225,
+			"id": 68,
 			"name": "\"grid/models/useData.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -5167,7 +5167,7 @@
 			"originalName": "D:/Today/Selection/react-grid-components/src/grid/models/useData.d.ts",
 			"children": [
 				{
-					"id": 226,
+					"id": 69,
 					"name": "useData",
 					"kind": 32,
 					"kindString": "Variable",
@@ -5210,7 +5210,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 227,
+							"id": 70,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -5219,7 +5219,7 @@
 							},
 							"signatures": [
 								{
-									"id": 228,
+									"id": 71,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5228,7 +5228,7 @@
 									},
 									"typeParameter": [
 										{
-											"id": 229,
+											"id": 72,
 											"name": "T",
 											"kind": 131072,
 											"kindString": "Type parameter",
@@ -5239,7 +5239,7 @@
 									],
 									"parameters": [
 										{
-											"id": 230,
+											"id": 73,
 											"name": "gridInstance",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5288,7 +5288,7 @@
 											}
 										},
 										{
-											"id": 231,
+											"id": 74,
 											"name": "gridAction",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5302,7 +5302,7 @@
 											}
 										},
 										{
-											"id": 232,
+											"id": 75,
 											"name": "dataState",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5352,7 +5352,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						226
+						69
 					]
 				}
 			],
@@ -5365,7 +5365,7 @@
 			]
 		},
 		{
-			"id": 233,
+			"id": 76,
 			"name": "\"grid/services/index.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -5382,7 +5382,7 @@
 			]
 		},
 		{
-			"id": 234,
+			"id": 77,
 			"name": "\"grid/services/service-locator.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -5392,7 +5392,7 @@
 			"originalName": "D:/Today/Selection/react-grid-components/src/grid/services/service-locator.d.ts",
 			"children": [
 				{
-					"id": 235,
+					"id": 78,
 					"name": "createServiceLocator",
 					"kind": 32,
 					"kindString": "Variable",
@@ -5420,7 +5420,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 236,
+							"id": 79,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -5429,7 +5429,7 @@
 							},
 							"signatures": [
 								{
-									"id": 237,
+									"id": 80,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5459,7 +5459,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						235
+						78
 					]
 				}
 			],
@@ -5472,7 +5472,7 @@
 			]
 		},
 		{
-			"id": 238,
+			"id": 81,
 			"name": "\"grid/services/value-formatter.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -5482,7 +5482,7 @@
 			"originalName": "D:/Today/Selection/react-grid-components/src/grid/services/value-formatter.d.ts",
 			"children": [
 				{
-					"id": 239,
+					"id": 82,
 					"name": "useValueFormatter",
 					"kind": 32,
 					"kindString": "Variable",
@@ -5515,7 +5515,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 240,
+							"id": 83,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -5524,7 +5524,7 @@
 							},
 							"signatures": [
 								{
-									"id": 241,
+									"id": 84,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -5533,7 +5533,7 @@
 									},
 									"parameters": [
 										{
-											"id": 242,
+											"id": 85,
 											"name": "cultureName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -5570,7 +5570,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						239
+						82
 					]
 				}
 			],
@@ -21660,7 +21660,7 @@
 				},
 				{
 					"id": 833,
-					"name": "deletePayloadArgs",
+					"name": "payloadArgs",
 					"kind": 256,
 					"kindString": "Interface",
 					"flags": {
@@ -21735,7 +21735,7 @@
 						{
 							"fileName": "src/grid/types/edit.interfaces.d.ts",
 							"line": 1119,
-							"character": 34
+							"character": 28
 						}
 					]
 				},
@@ -21954,7 +21954,7 @@
 								"type": "query",
 								"queryType": {
 									"type": "reference",
-									"id": 95,
+									"id": 114,
 									"name": "useEdit"
 								}
 							}
@@ -32862,7 +32862,7 @@
 								"type": "query",
 								"queryType": {
 									"type": "reference",
-									"id": 131,
+									"id": 150,
 									"name": "useFocusStrategy"
 								}
 							}
@@ -91628,7 +91628,7 @@
 												},
 												{
 													"id": 3221,
-													"name": "deletePayload",
+													"name": "payload",
 													"kind": 32768,
 													"kindString": "Parameter",
 													"flags": {
@@ -91638,7 +91638,7 @@
 													"type": {
 														"type": "reference",
 														"id": 833,
-														"name": "deletePayloadArgs"
+														"name": "payloadArgs"
 													}
 												}
 											],
@@ -94713,7 +94713,7 @@
 								"type": "query",
 								"queryType": {
 									"type": "reference",
-									"id": 183,
+									"id": 202,
 									"name": "useSearch"
 								}
 							}
@@ -97499,7 +97499,7 @@
 								"type": "query",
 								"queryType": {
 									"type": "reference",
-									"id": 193,
+									"id": 212,
 									"name": "useSelection"
 								}
 							}
@@ -98670,7 +98670,7 @@
 								"type": "query",
 								"queryType": {
 									"type": "reference",
-									"id": 203,
+									"id": 222,
 									"name": "useSort"
 								}
 							}
@@ -100787,7 +100787,7 @@
 				},
 				{
 					"id": 3678,
-					"name": "buildRemoteDeletePayload",
+					"name": "buildRemotepayload",
 					"kind": 64,
 					"kindString": "Function",
 					"flags": {
@@ -100797,7 +100797,7 @@
 					"signatures": [
 						{
 							"id": 3679,
-							"name": "buildRemoteDeletePayload",
+							"name": "buildRemotepayload",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {
@@ -100815,7 +100815,7 @@
 									},
 									{
 										"tag": "example",
-										"text": "\n```typescript\nconst payload = buildRemoteDeletePayload(gridRef);\nif (payload) {\n  await dataOperations.getData({\n    data: recordsToDelete,\n    deletePayload: payload\n  });\n}\n```"
+										"text": "\n```typescript\nconst payload = buildRemotepayload(gridRef);\nif (payload) {\n  await dataOperations.getData({\n    data: recordsToDelete,\n    payload: payload\n  });\n}\n```"
 									}
 								]
 							},
@@ -100861,7 +100861,7 @@
 									{
 										"type": "reference",
 										"id": 833,
-										"name": "deletePayloadArgs"
+										"name": "payloadArgs"
 									},
 									{
 										"type": "intrinsic",
@@ -100875,7 +100875,7 @@
 						{
 							"fileName": "src/grid/utils/utils.d.ts",
 							"line": 157,
-							"character": 48
+							"character": 42
 						}
 					]
 				},
@@ -106100,27 +106100,27 @@
 				34,
 				41,
 				66,
+				86,
+				87,
+				108,
+				112,
+				129,
+				134,
+				145,
+				159,
+				165,
+				173,
+				195,
+				200,
+				210,
+				220,
+				230,
+				2,
 				67,
 				68,
-				89,
-				93,
-				110,
-				115,
-				126,
-				140,
-				146,
-				154,
-				176,
-				181,
-				191,
-				201,
-				211,
-				2,
-				224,
-				225,
-				233,
-				234,
-				238,
+				76,
+				77,
+				81,
 				243,
 				247,
 				457,
