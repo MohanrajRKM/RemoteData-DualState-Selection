@@ -2367,7 +2367,19 @@ img {
 			<a href="_grid_types_interfaces_d_.contentrowsref.html" class="tsd-kind-icon">Content<wbr>Rows<wbr>Ref</a>
 			<ul>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_interfaces_d_.contentrowsref.html#cachedrowobjects" class="tsd-kind-icon">cached<wbr>Row<wbr>Objects</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_interfaces_d_.contentrowsref.html#contentsectionref" class="tsd-kind-icon">content<wbr>Section<wbr>Ref</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_interfaces_d_.contentrowsref.html#setrequiremorevirtualrowsforcerefresh" class="tsd-kind-icon">set<wbr>Require<wbr>More<wbr>Virtual<wbr>Rows<wbr>Force<wbr>Refresh</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_interfaces_d_.contentrowsref.html#totaladdformrenderedrowheight" class="tsd-kind-icon">total<wbr>Add<wbr>Form<wbr>Rendered<wbr>Row<wbr>Height</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_interfaces_d_.contentrowsref.html#totalrenderedrowheight" class="tsd-kind-icon">total<wbr>Rendered<wbr>Row<wbr>Height</a>
 				</li>
 				<li class=" tsd-kind-method tsd-parent-kind-interface">
 					<a href="_grid_types_interfaces_d_.contentrowsref.html#getcurrentviewrecords" class="tsd-kind-icon">get<wbr>Current<wbr>View<wbr>Records</a>
@@ -2425,7 +2437,11 @@ img {
 					<section class="tsd-index-section ">
 						<h3>Properties</h3>
 						<ul class="tsd-index-list">
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_interfaces_d_.contentrowsref.html#cachedrowobjects" class="tsd-kind-icon">cached<wbr>Row<wbr>Objects</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_interfaces_d_.contentrowsref.html#contentsectionref" class="tsd-kind-icon">content<wbr>Section<wbr>Ref</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_interfaces_d_.contentrowsref.html#setrequiremorevirtualrowsforcerefresh" class="tsd-kind-icon">set<wbr>Require<wbr>More<wbr>Virtual<wbr>Rows<wbr>Force<wbr>Refresh</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_interfaces_d_.contentrowsref.html#totaladdformrenderedrowheight" class="tsd-kind-icon">total<wbr>Add<wbr>Form<wbr>Rendered<wbr>Row<wbr>Height</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_interfaces_d_.contentrowsref.html#totalrenderedrowheight" class="tsd-kind-icon">total<wbr>Rendered<wbr>Row<wbr>Height</a></li>
 						</ul>
 					</section>
 					<section class="tsd-index-section ">
@@ -2444,12 +2460,22 @@ img {
 		<section class="tsd-panel-group tsd-member-group ">
 			<h2>Properties</h2>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="cachedrowobjects" class="tsd-anchor"></a>
+				<h3>cached<wbr>Row<wbr>Objects</h3>
+				<div class="tsd-signature tsd-kind-icon">cached<wbr>Row<wbr>Objects<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><a href="_grid_types_interfaces_d_.irow.html" class="tsd-signature-type">IRow</a><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_column_interfaces_d_.columnprops.html" class="tsd-signature-type">ColumnProps</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/interfaces.d.ts:783</li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="contentsectionref" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagOptional">Optional</span> content<wbr>Section<wbr>Ref</h3>
 				<div class="tsd-signature tsd-kind-icon">content<wbr>Section<wbr>Ref<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">HTMLTableSectionElement</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/interfaces.d.ts:694</li>
+						<li>Defined in src/grid/types/interfaces.d.ts:752</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2457,6 +2483,36 @@ img {
 						<p>Reference to the content section element</p>
 					</div>
 				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="setrequiremorevirtualrowsforcerefresh" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> set<wbr>Require<wbr>More<wbr>Virtual<wbr>Rows<wbr>Force<wbr>Refresh</h3>
+				<div class="tsd-signature tsd-kind-icon">set<wbr>Require<wbr>More<wbr>Virtual<wbr>Rows<wbr>Force<wbr>Refresh<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Dispatch</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">SetStateAction</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Object</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/interfaces.d.ts:786</li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="totaladdformrenderedrowheight" class="tsd-anchor"></a>
+				<h3>total<wbr>Add<wbr>Form<wbr>Rendered<wbr>Row<wbr>Height</h3>
+				<div class="tsd-signature tsd-kind-icon">total<wbr>Add<wbr>Form<wbr>Rendered<wbr>Row<wbr>Height<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/interfaces.d.ts:785</li>
+					</ul>
+				</aside>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="totalrenderedrowheight" class="tsd-anchor"></a>
+				<h3>total<wbr>Rendered<wbr>Row<wbr>Height</h3>
+				<div class="tsd-signature tsd-kind-icon">total<wbr>Rendered<wbr>Row<wbr>Height<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/interfaces.d.ts:784</li>
+					</ul>
+				</aside>
 			</section>
 		</section>
 		<section class="tsd-panel-group tsd-member-group ">
@@ -2471,7 +2527,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/interfaces.d.ts:700</li>
+								<li>Defined in src/grid/types/interfaces.d.ts:758</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -2494,7 +2550,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/interfaces.d.ts:718</li>
+								<li>Defined in src/grid/types/interfaces.d.ts:776</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -2522,7 +2578,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/interfaces.d.ts:724</li>
+								<li>Defined in src/grid/types/interfaces.d.ts:782</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -2550,7 +2606,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/interfaces.d.ts:706</li>
+								<li>Defined in src/grid/types/interfaces.d.ts:764</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">
@@ -2573,7 +2629,7 @@ img {
 					<li class="tsd-description">
 						<aside class="tsd-sources">
 							<ul>
-								<li>Defined in src/grid/types/interfaces.d.ts:712</li>
+								<li>Defined in src/grid/types/interfaces.d.ts:770</li>
 							</ul>
 						</aside>
 						<div class="tsd-comment tsd-typography">

@@ -2388,10 +2388,10 @@ img {
 			<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-external-module tsd-is-private">
 				<a name="usescroll" class="tsd-anchor"></a>
 				<h3><span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagConst">Const</span> use<wbr>Scroll</h3>
-				<div class="tsd-signature tsd-kind-icon">use<wbr>Scroll<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="../interfaces/_grid_types_interfaces_d_.usescrollresult.html" class="tsd-signature-type">UseScrollResult</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></div>
+				<div class="tsd-signature tsd-kind-icon">use<wbr>Scroll<span class="tsd-signature-symbol">:</span> &lt;T&gt;<span class="tsd-signature-symbol">(</span>contentPanelRef<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_interfaces_d_.contentpanelref.html" class="tsd-signature-type">ContentPanelRef</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="../interfaces/_grid_types_interfaces_d_.usescrollresult.html" class="tsd-signature-type">UseScrollResult</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/hooks/useScroll.d.ts:8</li>
+						<li>Defined in src/grid/hooks/useScroll.d.ts:9</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2399,6 +2399,9 @@ img {
 						<p>Custom hook to manage scroll synchronization between header and content panels</p>
 					</div>
 					<dl class="tsd-comment-tags">
+						<dt>param</dt>
+						<dd><p>content panel ref information, helpful for responsive virtualization</p>
+						</dd>
 						<dt>returns</dt>
 						<dd><p>Scroll-related APIs and functions</p>
 						</dd>
@@ -2409,7 +2412,7 @@ img {
 					<ul class="tsd-parameters">
 						<li class="tsd-parameter-siganture">
 							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-variable tsd-has-type-parameter">
-								<li class="tsd-signature tsd-kind-icon">&lt;T&gt;<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_interfaces_d_.usescrollresult.html" class="tsd-signature-type">UseScrollResult</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+								<li class="tsd-signature tsd-kind-icon">&lt;T&gt;<span class="tsd-signature-symbol">(</span>contentPanelRef<span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_interfaces_d_.contentpanelref.html" class="tsd-signature-type">ContentPanelRef</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_grid_types_interfaces_d_.usescrollresult.html" class="tsd-signature-type">UseScrollResult</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
 							</ul>
 							<ul class="tsd-descriptions">
 								<li class="tsd-description">
@@ -2417,6 +2420,12 @@ img {
 									<ul class="tsd-type-parameters">
 										<li>
 											<h4>T</h4>
+										</li>
+									</ul>
+									<h4 class="tsd-parameters-title">Parameters</h4>
+									<ul class="tsd-parameters">
+										<li>
+											<h5>contentPanelRef: <a href="../interfaces/_grid_types_interfaces_d_.contentpanelref.html" class="tsd-signature-type">ContentPanelRef</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
 										</li>
 									</ul>
 									<h4 class="tsd-returns-title">Returns <a href="../interfaces/_grid_types_interfaces_d_.usescrollresult.html" class="tsd-signature-type">UseScrollResult</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>

@@ -2382,6 +2382,9 @@ img {
 					<a href="_grid_types_focus_interfaces_d_.focusstrategyresult.html#clearindicator" class="tsd-kind-icon">clear<wbr>Indicator</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
+					<a href="_grid_types_focus_interfaces_d_.focusstrategyresult.html#debouncelastvirtualrowcellfocushelper" class="tsd-kind-icon">debounce<wbr>Last<wbr>Virtual<wbr>Row<wbr>Cell<wbr>Focus<wbr>Helper</a>
+				</li>
+				<li class=" tsd-kind-property tsd-parent-kind-interface">
 					<a href="_grid_types_focus_interfaces_d_.focusstrategyresult.html#edittorow" class="tsd-kind-icon">edit<wbr>ToRow</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
@@ -2531,6 +2534,7 @@ img {
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_focus_interfaces_d_.focusstrategyresult.html#addfocus" class="tsd-kind-icon">add<wbr>Focus</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_focus_interfaces_d_.focusstrategyresult.html#addoutline" class="tsd-kind-icon">add<wbr>Outline</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_focus_interfaces_d_.focusstrategyresult.html#clearindicator" class="tsd-kind-icon">clear<wbr>Indicator</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_focus_interfaces_d_.focusstrategyresult.html#debouncelastvirtualrowcellfocushelper" class="tsd-kind-icon">debounce<wbr>Last<wbr>Virtual<wbr>Row<wbr>Cell<wbr>Focus<wbr>Helper</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_focus_interfaces_d_.focusstrategyresult.html#edittorow" class="tsd-kind-icon">edit<wbr>ToRow</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_focus_interfaces_d_.focusstrategyresult.html#firstfocusableaggregatecellindex" class="tsd-kind-icon">first<wbr>Focusable<wbr>Aggregate<wbr>Cell<wbr>Index</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_grid_types_focus_interfaces_d_.focusstrategyresult.html#firstfocusablecontentcellindex" class="tsd-kind-icon">first<wbr>Focusable<wbr>Content<wbr>Cell<wbr>Index</a></li>
@@ -2578,7 +2582,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">add<wbr>Focus<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>info<span class="tsd-signature-symbol">: </span><a href="_grid_types_focus_interfaces_d_.focusedcellinfo.html" class="tsd-signature-type">FocusedCellInfo</a>, e<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">KeyboardEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:441</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:459</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2629,7 +2633,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">add<wbr>Outline<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:473</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:491</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2665,7 +2669,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">clear<wbr>Indicator<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:481</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:499</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2696,12 +2700,43 @@ img {
 				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="debouncelastvirtualrowcellfocushelper" class="tsd-anchor"></a>
+				<h3>debounce<wbr>Last<wbr>Virtual<wbr>Row<wbr>Cell<wbr>Focus<wbr>Helper</h3>
+				<div class="tsd-signature tsd-kind-icon">debounce<wbr>Last<wbr>Virtual<wbr>Row<wbr>Cell<wbr>Focus<wbr>Helper<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>isCellNotRequiredToUpdate<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:554</li>
+					</ul>
+				</aside>
+				<div class="tsd-type-declaration">
+					<h4>Type declaration</h4>
+					<ul class="tsd-parameters">
+						<li class="tsd-parameter-siganture">
+							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
+								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>isCellNotRequiredToUpdate<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+							</ul>
+							<ul class="tsd-descriptions">
+								<li class="tsd-description">
+									<h4 class="tsd-parameters-title">Parameters</h4>
+									<ul class="tsd-parameters">
+										<li>
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> isCellNotRequiredToUpdate: <span class="tsd-signature-type">boolean</span></h5>
+										</li>
+									</ul>
+									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 				<a name="edittorow" class="tsd-anchor"></a>
 				<h3>edit<wbr>ToRow</h3>
 				<div class="tsd-signature tsd-kind-icon">edit<wbr>ToRow<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>e<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">KeyboardEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:580</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:599</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2746,7 +2781,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">first<wbr>Focusable<wbr>Aggregate<wbr>Cell<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:631</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:650</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2768,7 +2803,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">first<wbr>Focusable<wbr>Content<wbr>Cell<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:599</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:618</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2790,7 +2825,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">first<wbr>Focusable<wbr>Header<wbr>Cell<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:607</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:626</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2812,7 +2847,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">focus<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>e<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">KeyboardEvent</span>, focus<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">FocusEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:415</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:433</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2863,7 +2898,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">focus<wbr>ByClick<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:355</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:373</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2885,7 +2920,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">focus<wbr>Content<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:465</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:483</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2921,7 +2956,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">focused<wbr>Cell<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RefObject</span><span class="tsd-signature-symbol">&lt;</span><a href="_grid_types_focus_interfaces_d_.focusedcellinfo.html" class="tsd-signature-type">FocusedCellInfo</a><span class="tsd-signature-symbol">&gt;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:339</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:357</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2943,7 +2978,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Active<wbr>Matrix<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="_grid_types_focus_interfaces_d_.ifocusmatrix.html" class="tsd-signature-type">IFocusMatrix</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:396</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:414</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -2980,7 +3015,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Aggregate<wbr>Matrix<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="_grid_types_focus_interfaces_d_.ifocusmatrix.html" class="tsd-signature-type">IFocusMatrix</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:388</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:406</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3017,7 +3052,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Command<wbr>Items<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>element<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">HTMLElement</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:571</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:590</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3063,7 +3098,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Content<wbr>Matrix<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="_grid_types_focus_interfaces_d_.ifocusmatrix.html" class="tsd-signature-type">IFocusMatrix</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:372</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:390</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3100,7 +3135,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Focus<wbr>Info<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="_grid_types_focus_interfaces_d_.focusedcellinfo.html" class="tsd-signature-type">FocusedCellInfo</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:449</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:467</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3137,7 +3172,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Focused<wbr>Cell<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="_grid_types_focus_interfaces_d_.focusedcellinfo.html" class="tsd-signature-type">FocusedCellInfo</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:331</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:349</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3174,7 +3209,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Header<wbr>Matrix<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><a href="_grid_types_focus_interfaces_d_.ifocusmatrix.html" class="tsd-signature-type">IFocusMatrix</a></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:380</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:398</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3211,7 +3246,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Navigation<wbr>Direction<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">KeyboardEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">string</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:553</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:572</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3257,7 +3292,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">get<wbr>Prev<wbr>Indexes<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-symbol">{ </span>cellIndex<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>rowIndex<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:588</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:607</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3302,7 +3337,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">handle<wbr>Grid<wbr>Click<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">MouseEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:499</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:517</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3347,7 +3382,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">handle<wbr>Key<wbr>Down<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">KeyboardEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:490</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:508</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3392,7 +3427,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">is<wbr>Grid<wbr>Focused<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:347</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:365</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3414,7 +3449,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">is<wbr>Navigation<wbr>Key<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>event<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">KeyboardEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:544</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:563</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3460,7 +3495,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">is<wbr>Next<wbr>Command<wbr>Item<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>e<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">KeyboardEvent</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">boolean</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:562</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:581</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3506,7 +3541,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">last<wbr>Focusable<wbr>Aggregate<wbr>Cell<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:639</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:658</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3528,7 +3563,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">last<wbr>Focusable<wbr>Content<wbr>Cell<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:615</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:634</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3550,7 +3585,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">last<wbr>Focusable<wbr>Header<wbr>Cell<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:623</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:642</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3572,7 +3607,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">navigate<wbr>ToCell<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>rowIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, colIndex<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, matrixType<span class="tsd-signature-symbol">?: </span><a href="../modules/_grid_types_focus_interfaces_d_.html#matrix" class="tsd-signature-type">Matrix</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:510</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:528</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3629,7 +3664,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">navigate<wbr>ToFirst<wbr>Cell<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:527</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:545</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3665,7 +3700,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">navigate<wbr>ToLast<wbr>Cell<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:535</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:553</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3701,7 +3736,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">navigate<wbr>ToNext<wbr>Cell<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>direction<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"up"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"down"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"left"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"right"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"nextCell"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"prevCell"</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:519</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:537</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3746,7 +3781,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">remove<wbr>Focus<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:423</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:441</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3782,7 +3817,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">remove<wbr>Focus<wbr>Tab<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:431</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:449</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3818,7 +3853,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">set<wbr>Active<wbr>Matrix<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>matrixType<span class="tsd-signature-symbol">: </span><a href="../modules/_grid_types_focus_interfaces_d_.html#matrix" class="tsd-signature-type">Matrix</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:405</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:423</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3863,7 +3898,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">set<wbr>First<wbr>Focusable<wbr>Tab<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:457</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:475</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
@@ -3899,7 +3934,7 @@ img {
 				<div class="tsd-signature tsd-kind-icon">set<wbr>Grid<wbr>Focus<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>isFocused<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/grid/types/focus.interfaces.d.ts:364</li>
+						<li>Defined in src/grid/types/focus.interfaces.d.ts:382</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
